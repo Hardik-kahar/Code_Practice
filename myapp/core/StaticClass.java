@@ -1,11 +1,11 @@
 package myapp.core;
 
-
 class Parent {
 
     public static void display() {
         System.out.println("Parent static method");
     }
+
     public static void greet() {
         System.out.println("Parent static static method");
     }

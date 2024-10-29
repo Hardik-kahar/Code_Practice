@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916723a6-afbd-4668-b6b7-f5569cc7fa88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/core/StaticClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/core/This_Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/core/Use_Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/core/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/opps/ConstructorsCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/opps/Encapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/opps/Inheritance_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/opps/Inheritance_Opps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/opps/Modifires.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/opps/Poly_methodOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/opps/Poly_methodOverriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/opps/Poly_methodOverriding1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/opps/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/core/StaticClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/core/StaticClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
