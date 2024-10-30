@@ -1,4 +1,4 @@
-package myapp.opps;
+package myapp.oops;
 
 class P{
 	public void property() {

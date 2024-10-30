@@ -1,4 +1,4 @@
-package myapp.opps;
+package myapp.oops;
 
 public class ConstructorsCode {
 

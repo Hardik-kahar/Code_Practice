@@ -1,4 +1,4 @@
-package myapp.opps;
+package myapp.oops;
 
 //Java program to illustrate the
 //concept of inheritance

@@ -1,4 +1,4 @@
-package myapp.opps;
+package myapp.oops;
 
 class Operation{  
 	int square(int n){  
