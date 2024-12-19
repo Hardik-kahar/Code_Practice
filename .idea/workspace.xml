@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916723a6-afbd-4668-b6b7-f5569cc7fa88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/java8/StreamAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/java8/StreamAPIMIdCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/java8/TestRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/java8/StreamAPIInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/java8/StreamAPIString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/oops/Inheritance_Opps.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/oops/Inheritance_Opps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/oops/Poly_methodOverriding1.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/oops/Poly_methodOverriding1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/java8/StreamAPIMIdCode.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/core/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/core/Variable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/Inheritance_Opps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/Inheritance_Opps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/Poly_methodOverriding1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/Poly_methodOverriding1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/oops/student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/java8/StreamAPIMIdCode.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,9 @@
     "Application.Main.executor": "Run",
     "Application.StaticClass.executor": "Run",
     "Application.StreamAPI.executor": "Run",
+    "Application.StreamAPIInteger.executor": "Run",
     "Application.StreamAPIMIdCode.executor": "Run",
+    "Application.StreamAPIString.executor": "Run",
     "Application.TestRecord.executor": "Run",
     "Application.Variable.executor": "Run",
     "Application.myapp.core.Main.executor": "Run",
@@ -83,20 +77,7 @@
       <recent name="D:\Hardik\version_2\Code_Practice\java\core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamAPIMIdCode">
-    <configuration name="StaticClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myapp.core.StaticClass" />
-      <module name="Code_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamAPIInteger">
     <configuration name="StreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="myapp.java8.StreamAPI" />
       <module name="Code_Practice" />
@@ -110,8 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAPIMIdCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myapp.java8.StreamAPIMIdCode" />
+    <configuration name="StreamAPIInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myapp.java8.StreamAPIInteger" />
+      <module name="Code_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPIString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myapp.java8.StreamAPIString" />
       <module name="Code_Practice" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamAPIMIdCode" />
+        <item itemvalue="Application.StreamAPIInteger" />
+        <item itemvalue="Application.StreamAPIString" />
         <item itemvalue="Application.StreamAPI" />
         <item itemvalue="Application.TestRecord" />
         <item itemvalue="Application.Variable" />
-        <item itemvalue="Application.StaticClass" />
       </list>
     </recent_temporary>
   </component>
