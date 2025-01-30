@@ -13,6 +13,10 @@ public class basicPrgrms {
         int number2 = 52;
         int armStrongNum = 153;
         long longNumber = 123456444465412333L;
+        int palindromeNumber = 1234321;
+        int[] numbers= {1, 2, 3, 4, 5};
+
+
 //      1. Java program to Find Odd or Even number / And bifurcate even and odd number with stream/without stream;
 //        findEvenAndOdd();
 
@@ -40,26 +44,42 @@ public class basicPrgrms {
 //        findCountOfNumber(longNumber);
 
 //      9. Java program to find Palindrome number
+//        System.out.println(checkPalindrome(palindromeNumber));
 
+//      10.   Java program to calculate the sum of digits of a number
+        System.out.println(sumOfNumbers(numbers));
+    }
 
+//      10.   Java program to calculate the sum of digits of a number
+    public static int sumOfNumbers(int[] numbers){
+        return Arrays.stream(numbers).sum();
     }
 
     public static boolean checkPalindrome(int number) {
+//        brut force approach
+//        int originalNumber = number;
+//        int reversed = 0;
+//
+//        while (number > 0) {
+//            int rem = number % 10;
+//            reversed = reversed * 10 + rem;
+//            number /= 10;
+//        }
+//
+//        return originalNumber == reversed;
 
-        String numString = String.valueOf(number);
-        int lg = numString.length() / 2;
 
-        boolean flag = true;
-        while (flag) {
-
-            if (numString.charAt(lg - 1) == numString.charAt(lg + 1)) {
-
-            }
-//            if(numString.length())
+//        Optimize approach
+        int reverseHalf = 0;
+        while (number > reverseHalf) {
+            int rem = number % 10;
+            reverseHalf = reverseHalf * 10 + rem;
+            number /= 10;
         }
+        System.out.println("reverseHalf: " + reverseHalf);
+        System.out.println("number: " + number);
 
-
-        return false;
+        return reverseHalf == number || reverseHalf / 10 == number;
     }
 
     // 8. Java program to find number of digits in given number
@@ -157,7 +177,6 @@ public class basicPrgrms {
     public static boolean checkPrimeNumber(int num) {
 
         if (num < 2) return false;
-
         for (int i = 2; i < num / 2; i++) {
             if (num % i == 0) {
                 return false;

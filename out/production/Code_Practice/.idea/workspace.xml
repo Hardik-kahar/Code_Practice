@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916723a6-afbd-4668-b6b7-f5569cc7fa88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/code/basicPrgrms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/code/StringBasicPrgms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/java8/StreamAPIInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/java8/StreamAPIInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/java8/StreamAPIString.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/java8/StreamAPIString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/code/basicPrgrms.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/code/basicPrgrms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/core/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/core/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/core/StaticClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/core/StaticClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/java8/StreamAPIInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/java8/StreamAPIInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/java8/StreamAPIString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/java8/StreamAPIString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/code/basicPrgrms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/code/basicPrgrms.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,7 @@
     &quot;Application.TestRecord.executor&quot;: &quot;Run&quot;,
     &quot;Application.Thread1.executor&quot;: &quot;Run&quot;,
     &quot;Application.Variable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basicPrgrms.executor&quot;: &quot;Run&quot;,
     &quot;Application.myapp.core.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.staticClass.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -84,7 +81,7 @@
       <recent name="D:\Hardik\version_2\Code_Practice\java\core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.basicPrgrms">
+  <component name="RunManager" selected="Application.StringBasicPrgms">
     <configuration name="Atomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="myapp.thread.Atomic" />
       <module name="Code_Practice" />
@@ -124,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myapp.thread.Thread1" />
+    <configuration name="StringBasicPrgms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myapp.code.StringBasicPrgms" />
       <module name="Code_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.thread.*" />
+          <option name="PATTERN" value="myapp.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBasicPrgms" />
         <item itemvalue="Application.basicPrgrms" />
         <item itemvalue="Application.Atomic" />
         <item itemvalue="Application.StaticClass" />
         <item itemvalue="Application.DaemonThreadExample" />
-        <item itemvalue="Application.Thread1" />
       </list>
     </recent_temporary>
   </component>
