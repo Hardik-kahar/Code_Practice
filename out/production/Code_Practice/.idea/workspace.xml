@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916723a6-afbd-4668-b6b7-f5569cc7fa88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/code/StringBasicPrgms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/code/basicPrgrms.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/code/basicPrgrms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/code/basicPrgrms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/code/basicPrgrms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/code/StringBasicPrgms.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/code/StringBasicPrgms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +55,7 @@
     &quot;Application.StreamAPIInteger.executor&quot;: &quot;Run&quot;,
     &quot;Application.StreamAPIMIdCode.executor&quot;: &quot;Run&quot;,
     &quot;Application.StreamAPIString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBasicPrgms.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test11.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestRecord.executor&quot;: &quot;Run&quot;,
     &quot;Application.Thread1.executor&quot;: &quot;Run&quot;,

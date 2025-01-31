@@ -10,7 +10,6 @@ public class Test11 {
 
     public static void main(String[] args) {
 
-
         int[] num = {1,2,3,6,-2,10,34,12};
 
         Integer lowestNum = Arrays.stream(num)
