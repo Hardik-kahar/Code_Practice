@@ -1,6 +1,7 @@
 package myapp.code;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class StringBasicPrgms {
@@ -9,7 +10,9 @@ public class StringBasicPrgms {
         String str = "Hello My Dear Developer";
         String bigString = "geeksofGeeks";
         String smallStr = "abcd";
-        String palindromeStr= "madam";
+        String palindromeStr = "madam";
+        String s1 = "hello";
+        String s2 = "world";
 
 //          1.) Java program to reverse a string
 //        System.out.println(toReverseString(str));
@@ -30,13 +33,123 @@ public class StringBasicPrgms {
 //        System.out.println(Palindrome(palindromeStr));
 
 //        7. determine if Two Strings are "Anagrams"
-        System.out.println(anagrams("listen", "silent"));
+//        System.out.println(anagrams("listen", "silent"));
 
+//        8. Java program to print even indexed characters
+//            printEvenIndexedCharacters(bigString);
+
+//        9. Java program to remove space from a given string
+//        System.out.println(removeSpace(str));
+
+//        Java program to print each letter twice from a given string
+//        System.out.println(doubleCharacters(bigString));
+
+//        Java program to swap two string without using 3rd variable
+//        swapString(s1, s2);
+
+//        Java program to gives Output: a2b2c3d2 for the Input String Str = “aabbcccdd”
+//        getCharacterCount("aabbcccdd");
+
+//        separateCharacters("Subbu123raj");
+
+
+//         Java program to find the longest without repeating characters
 
 
     }
 
-    public static boolean anagrams(String str1, String str2){
+    public static void lengthOfLongestSubString(String str){
+        int count = 1;
+        StringBuffer subString = new StringBuffer();
+
+        char[] charStr = str.toCharArray();
+
+        for(int i = 0 ; i< str.length() ; i++){
+
+            if(i < charStr.length-1 && charStr[i] != charStr[i+1]  ){
+                count++;
+                subString.append(charStr[i]);
+            }
+
+        }
+
+
+    }
+
+    public static void separateCharacters(String str){
+        char[] charStr = str.toCharArray();
+        StringBuffer alphaPart = new StringBuffer();
+        StringBuffer numericPart = new StringBuffer();
+
+        for(Character c : charStr){
+
+            if(Character.isLetter(c)){
+                alphaPart.append(c);
+            }else if(Character.isDigit(c)){
+                numericPart.append(c);
+            }
+        }
+        System.out.println("alphaPart: "+ alphaPart);
+        System.out.println("numericPart: "+ numericPart);
+
+    }
+
+    public static void getCharacterCount(String str){
+        StringBuffer newStr = new StringBuffer();
+        int count = 1;
+        char[] charString = str.toCharArray();
+
+        for(int i= 0 ; i < str.length() ;i++){
+            if(i + 1 < str.length() && charString[i] == charString[i+1] ){
+                count++;
+            }else {
+                newStr.append(charString[i]).append(count);
+                count=1;
+            }
+        }
+        System.out.println(newStr);
+    }
+
+    public static void swapString(String s1, String s2){
+
+        s1 = s1 + s2;
+        s2 = s1.substring(0, s1.length() - s2.length());
+        s1 = s1.substring(s2.length());
+
+        System.out.println("s1: "+ s1);
+        System.out.println("s2: "+ s2);
+
+    }
+
+    public static String  doubleCharacters(String str){
+        char[] charString = str.toCharArray();
+        String newString = "";
+
+        for(int i = 0 ; i < charString.length ; i++){
+            newString = newString + charString[i] + charString[i];
+        }
+        return newString;
+    }
+
+    //        9. Java program to remove space from a given string
+    public static String removeSpace(String str) {
+        str = str.replaceAll("\\s", "");
+        return str;
+    }
+
+    //        8. Java program to print even indexed characters
+    public static void printEvenIndexedCharacters(String str) {
+        char[] charString = str.toCharArray();
+
+        for (int i = 0; i < charString.length; i++) {
+            if (i % 2 == 0) {
+                System.out.print(charString[i] + " ");
+            }
+        }
+    }
+
+    //        7. determine if Two Strings are "Anagrams"
+    public static boolean anagrams(String str1, String str2) {
 
         char[] strchar1 = str1.toCharArray();
         char[] strchar2 = str1.toCharArray();
@@ -45,7 +158,6 @@ public class StringBasicPrgms {
         Arrays.sort(strchar2);
 
         return Arrays.toString(strchar1).equals(Arrays.toString(strchar2));
-
 
 
 //        TreeMap<Character, Integer> mapStr1 = new TreeMap<>();
@@ -66,15 +178,15 @@ public class StringBasicPrgms {
     }
 
 
-//    6. Java program to find if a string is Palindrome
-    public static boolean Palindrome(String str){
+    //    6. Java program to find if a string is Palindrome
+    public static boolean Palindrome(String str) {
 
         char[] charArray = str.toCharArray();
-        int s= 0, l = charArray.length-1;
+        int s = 0, l = charArray.length - 1;
 
-        while(s < l){
+        while (s < l) {
 
-            if(str.charAt(s) != str.charAt(l)){
+            if (str.charAt(s) != str.charAt(l)) {
                 return false;
             }
             s++;
@@ -155,7 +267,7 @@ public class StringBasicPrgms {
             charCount1.put(c, charCount1.getOrDefault(c, 0) + 1);
         }
 
-        charCount1.forEach((key, value)->  {
+        charCount1.forEach((key, value) -> {
 
         });
         System.out.println(charCount1);

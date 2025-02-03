@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916723a6-afbd-4668-b6b7-f5569cc7fa88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/myapp/code/ArrayPrgms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/code/StringBasicPrgms.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/code/StringBasicPrgms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/java8/Test11.java" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/java8/Test11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code_Practice/myapp/code/StringBasicPrgms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code_Practice/myapp/code/StringBasicPrgms.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayPrgms.executor": "Run",
     "Application.Atomic.executor": "Run",
     "Application.DaemonThreadExample.executor": "Run",
     "Application.Inheritance_Opps.executor": "Run",
@@ -81,13 +83,13 @@
       <recent name="D:\Hardik\version_2\Code_Practice\java\core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringBasicPrgms">
-    <configuration name="Atomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myapp.thread.Atomic" />
+  <component name="RunManager" selected="Application.ArrayPrgms">
+    <configuration name="ArrayPrgms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myapp.code.ArrayPrgms" />
       <module name="Code_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.thread.*" />
+          <option name="PATTERN" value="myapp.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaemonThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myapp.thread.DaemonThreadExample" />
+    <configuration name="Atomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myapp.thread.Atomic" />
       <module name="Code_Practice" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayPrgms" />
         <item itemvalue="Application.StringBasicPrgms" />
         <item itemvalue="Application.basicPrgrms" />
         <item itemvalue="Application.Atomic" />
         <item itemvalue="Application.StaticClass" />
-        <item itemvalue="Application.DaemonThreadExample" />
       </list>
     </recent_temporary>
   </component>
